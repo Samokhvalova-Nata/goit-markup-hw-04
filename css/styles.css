@@ -366,6 +366,42 @@ img {
     font-size: 16px;
 }
 
+.team-text {
+    margin-bottom: 16px;
+}
+
+.team-soc-list {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 10px;
+}
+
+.team-soc-link {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    color: #afb1b8;
+    background-color: var(--primary-background-color);
+    text-decoration: none;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    color: var(--primary-white-color);;
+    background-color: var(--accent-color);
+}
+
+.team-soc-icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+
 /*-------------------------------ПОРТФОЛІО-------------------------------*/
 .filter-list {
     display: flex;
