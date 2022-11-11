@@ -100,6 +100,7 @@ img {
 .button.secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* --------------------------------CONTAINER------------------------------------*/
@@ -214,7 +215,6 @@ img {
     height: 600px;
     max-width: 1600px;
     padding: 200px 0;
-    padding: 200px 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center; 
@@ -297,30 +297,6 @@ img {
     height: 70px;
 }
 
-/* .feature-item::before {
-    display: block;
-    content: "";
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-antenna::before {
-    background-image: url(../images/antenna\ 1.svg);
-}
-.icon-clock::before {
-    background-image: url(../images/clock\ 1.svg);
-}
-.icon-diagram::before {
-    background-image: url(../images/diagram\ 1.svg);
-}
-.icon-astronaut::before {
-    background-image: url(../images/astronaut\ 1.svg);
-} */
-
 .features-item-title {
     margin-bottom: 10px;
 
@@ -358,6 +334,8 @@ img {
     flex-basis: calc((100% - 3 * var(--card-set-gap)) / 4);
 
     background-color: var(--primary-background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-description {
@@ -466,11 +444,18 @@ img {
 
 .portfolio-item {
     flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
+    background-color: var(--primary-background-color);
 }
 
 .portfolio-link {
+    display: inline-block;
     text-decoration: none;
 }
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} 
 
 .portfolio-discription {
     padding: 20px 24px;
