@@ -127,14 +127,16 @@ img {
 
 /******************** ЛОГОТИП ********************/
 .logo {
-    margin-right: 93px;
-
     color: #000000;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+}
+
+.header-logo {
+    margin-right: 93px;
 }
 
 .logo-accent {
@@ -491,11 +493,10 @@ img {
 
 .footer-wrap {
     display: flex;
-    gap: 70px;
     align-items: baseline;
 }
 
-.footer .logo {
+.footer-logo {
     display: block;
     margin-bottom: 20px;
     
@@ -517,6 +518,10 @@ img {
 .footer-contacts-list .link:hover,
 .footer-contacts-list .link:focus {
     color: var(--accent-color);
+}
+
+.footer-socials {
+    margin-left: 70px;
 }
 
 .footer-socials-title {
