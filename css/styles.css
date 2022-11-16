@@ -149,7 +149,7 @@ img {
     gap: 50px;
 }
 
-.nav-list .link {
+.nav-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -162,16 +162,16 @@ img {
     text-decoration: none;
 }
 
-.nav-list .link:hover, 
-.nav-list .link:focus {
+.nav-link:hover, 
+.nav-link:focus {
     color: var(--accent-color);
 }
 
-.nav-list .link.current {
+.nav-link.current {
     color: var(--accent-color);
 }
-.nav-list .link.current:hover,
-.nav-list .link.current:focus {
+.nav-link.current:hover,
+.nav-link.current:focus {
     color: var(--secondary-text-color);
 }
 
